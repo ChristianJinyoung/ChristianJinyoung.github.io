@@ -1,12 +1,27 @@
 /* Style for all paragraph tags */
 p {
-    color: blue;        /* Text color */
+    color: cyan;        /* Text color */
     font-size: 16px;   /* Font size */
     line-height: 1.5;  /* Line height */
 }
 
+#main-header{
+    color: lightblue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Set dark background and light text for the entire body */
+body {
+    background-color: #121212; /* Dark background color */
+    color: white;              /* Light text color */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
 .highlight {
-    background-color: yellow;
+    background-color: white;
     color: black;
     padding: 10px;
     border-radius: 5px;
@@ -14,19 +29,14 @@ p {
 
 .highlightLight {
     background-color: lightskyblue;
-    color: black;
+    color: darkorange;
     padding: 10px;
     border-radius: 5px;
 }
 
 .highlightDark {
-    background-color: black;
-    color: white;
+    background-color: darkred;
+    color: lightgreen;
     padding: 10px;
     border-radius: 5px;
-}
-
-#main-header{
-    font-size: 24px;
-    font-weight: bold;
 }
