@@ -1,0 +1,6 @@
+/* Style for all paragraph tags */
+p {
+    color: blue;        /* Text color */
+    font-size: 16px;   /* Font size */
+    line-height: 1.5;  /* Line height */
+}
