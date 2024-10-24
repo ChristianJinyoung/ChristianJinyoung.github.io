@@ -35,7 +35,7 @@ body {
 }
 
 .link:hover {
-    color: aqua;
+    color: lightgreen;
     text-decoration: underline;
 }
 
