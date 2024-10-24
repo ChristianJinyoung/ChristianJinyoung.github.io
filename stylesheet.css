@@ -1,10 +1,18 @@
 /* Style for all paragraph tags */
 p {
-    color: cyan;        /* Text color */
-    font-size: 16px;   /* Font size */
-    line-height: 1.5;  /* Line height */
+    color: cyan; 
+    font-size: 16px;
+    line-height: 1.5;
 }
 
+/*Style for web page*/
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/*Style for main header*/
 #main-header{
     color: lightblue;
     font-size: 24px;
@@ -13,13 +21,15 @@ p {
     text-align: center;
 }
 
-/* Set dark background and light text for the entire body */
-body {
-    background-color: #121212; /* Dark background color */
-    color: white;              /* Light text color */
-    font-family: Arial, sans-serif; /* Set a default font */
+/*Style for sections*/
+.section {
+    background-color: #1e1e1e; /* Slightly lighter dark background for sections */
+    padding: 20px;            /* Add padding inside sections */
+    margin: 20px;             /* Add margin outside sections */
+    border-radius: 8px;       /* Round corners */
 }
 
+/*Highlight classes*/
 .highlight {
     background-color: white;
     color: black;
