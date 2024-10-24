@@ -4,3 +4,22 @@ p {
     font-size: 16px;   /* Font size */
     line-height: 1.5;  /* Line height */
 }
+
+.highlightLight {
+    background-color: lightskyblue;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.highlightDark {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#main-header{
+    font-size: 24px;
+    font-weight: bold;
+}
