@@ -23,10 +23,20 @@ body {
 
 /*Style for sections*/
 .section {
-    background-color: #1e1e1e; /* Slightly lighter dark background for sections */
-    padding: 20px;            /* Add padding inside sections */
-    margin: 20px;             /* Add margin outside sections */
-    border-radius: 8px;       /* Round corners */
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+}
+
+/* Image styles */
+.section-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 .link {
